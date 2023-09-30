@@ -5,7 +5,7 @@ function containsDuplicate(nums: number[]): boolean {
     return set.size !== nums.length;
 }
 
-function containsDuplicate_two(nums: number[]): boolean {
+function containsDuplicateOptionTwo(nums: number[]): boolean {
     // create a new set
     const set = new Set();
     for (let num of nums) {
